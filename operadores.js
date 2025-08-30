@@ -2,7 +2,6 @@ let num1 = parseInt(prompt("Ingresa el primer número"));
 let num2 = parseInt(prompt("Ingresa el segundo número"));
 let num3 = parseInt(prompt("Ingresa el tercer número"));
 
-
 // Encontrar el mayor
 let mayor = num1;         // Inicializamos el mayor como: num1
 
@@ -49,3 +48,4 @@ if (num1 === num2 && num2 === num3) {   // Si los tres son iguales
         console.log("El primero y el tercero no son iguales");
     }
 }
+
