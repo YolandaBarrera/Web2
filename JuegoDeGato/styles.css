@@ -1,0 +1,60 @@
+/* Centrar el título, la tabla y el botón */
+body {
+    background-color: #a6cff8;
+    text-align: center;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Centrar la tabla horizontalmente */
+  table {
+    margin: 30px auto;
+    border-collapse: collapse;
+    border: none; /* elimina cualquier borde externo */
+  }
+  
+  /* Estilo de las celdas */
+  td {
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    font-size: 2em;
+    cursor: pointer;
+    border: 2px solid black;
+  }
+  
+  /* Quitar los bordes exteriores para que parezca un gato */
+  #c1 { border-top: none; border-left: none; }
+  #c2 { border-top: none; }
+  #c3 { border-top: none; border-right: none; }
+  #c4 { border-left: none; }
+  #c6 { border-right: none; }
+  #c7 { border-left: none; border-bottom: none; }
+  #c8 { border-bottom: none; }
+  #c9 { border-right: none; border-bottom: none; }
+  
+  /* Estilo del botón */
+  button {
+    margin-top: 5px;
+    padding: 10px 18px;
+    font-size: 1em;
+    cursor: pointer;
+    background-color: white; /* Fondo blanco */
+    color: #333; /* Texto oscuro */
+    border: 2px solid #333; /* Borde para que destaque */
+    border-radius: 5px;
+    transition: background-color 0.3s, color 0.3s;
+  }
+  
+  /* Efecto hover del botón */
+  button:hover {
+    background-color: #f2f2f2;
+    color: black;
+  }
+  
+  /* Mensaje del juego */
+  #mensaje {
+    margin-top: 15px;
+    font-size: 1.2em;
+    font-weight: bold;
+  }
+  
